@@ -4,7 +4,7 @@
   "description": "",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "eslint src",
     "prepublish": "npm run build",
     "build": "rimraf lib/* && babel src --out-dir lib",
     "storybook": "start-storybook -p 6006",
@@ -25,7 +25,6 @@
   "homepage": "https://github.com/4Catalyzer/react-formal-bootstrap#readme",
   "peerDependencies": {
     "react": ">=0.14.0",
-    "react-dom": ">=0.14.0",
     "react-bootstrap": ">= 0.29.0"
   },
   "devDependencies": {
