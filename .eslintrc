@@ -1,0 +1,9 @@
+
+extends: "4catalyzer-react"
+globals:
+  css: false
+rules:
+  no-param-reassign: off
+  import/no-extraneous-dependencies:
+    - error
+    - devDependencies: true
