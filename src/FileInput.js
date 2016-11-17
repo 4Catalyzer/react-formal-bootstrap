@@ -21,7 +21,7 @@ class FileInput extends React.Component {
 
     return (
       <FormInput
-        {...this.props}
+        {...props}
         onChange={this.onChange}
       />
     );
