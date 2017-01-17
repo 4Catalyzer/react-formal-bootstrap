@@ -49,7 +49,7 @@
     "react": "^15.3.2",
     "react-bootstrap": "^0.30.6",
     "react-dom": "^15.3.2",
-    "react-formal": "^0.23.1",
+    "react-formal": "^0.24.3",
     "rimraf": "^2.5.4",
     "style-loader": "^0.13.1",
     "url-loader": "^0.5.7",

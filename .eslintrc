@@ -5,3 +5,7 @@ rules:
   import/no-extraneous-dependencies:
     - error
     - devDependencies: true
+  react/no-unknown-property:
+    - error
+    - ignore: 
+      - for
