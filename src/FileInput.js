@@ -1,33 +1,15 @@
 import React from 'react';
+import File from 'react-formal/lib/inputs/File';
 
 import FormInput from './FormInput';
 
-const propTypes = {
-  multiple: React.PropTypes.bool,
-  onChange: React.PropTypes.func,
-};
-
-class FileInput extends React.Component {
-  onChange = ({ target: { files } }) => {
-    const { multiple, onChange } = this.props;
-    if (onChange) {
-      onChange(multiple ? files : files[0]);
-    }
-  };
-
-  render() {
-    const props = { ...this.props };
-    delete props.value;
-
-    return (
-      <FormInput
-        {...props}
-        onChange={this.onChange}
-      />
-    );
-  }
+function FileInput(props) {
+  return (
+    <File
+      {...props}
+      tagName={FormInput}
+    />
+  );
 }
-
-FileInput.propTypes = propTypes;
 
 export default FileInput;
