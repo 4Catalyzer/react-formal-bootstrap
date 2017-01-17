@@ -25,7 +25,8 @@
   "homepage": "https://github.com/4Catalyzer/react-formal-bootstrap#readme",
   "peerDependencies": {
     "react": ">=0.14.0",
-    "react-bootstrap": ">= 0.29.0"
+    "react-bootstrap": ">= 0.29.0",
+    "react-formal": "^0.24.3"
   },
   "devDependencies": {
     "@kadira/storybook": "^2.21.0",
@@ -48,8 +49,8 @@
     "less-loader": "^2.2.3",
     "react": "^15.3.2",
     "react-bootstrap": "^0.30.6",
-    "react-dom": "^15.3.2",
     "react-formal": "^0.24.3",
+    "react-dom": "^15.3.2",
     "rimraf": "^2.5.4",
     "style-loader": "^0.13.1",
     "url-loader": "^0.5.7",
