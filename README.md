@@ -18,12 +18,10 @@ input from `react-formal-bootstrap/lib`, to take advantage of the value parsing 
 
 ```js
 import React from 'react';
+import ControlLabel from 'react-bootstrap/lib/ControlLabel';
+import FormGroup from 'react-bootstrap/lib/FormGroup';
 import Form from 'react-formal';
 import * as yup from 'yup';
-
-import ControlLabel from 'react-bootstrap/lib/ControlLabel';
-
-import FormGroup from 'react-formal-bootstrap/lib/FormGroup';
 
 const schema = yup.object({
   name: yup.string(),
