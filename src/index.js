@@ -10,6 +10,8 @@ const types = Object.create(null);
 
 types.file = FileInput;
 
+types.text = TextInput;
+types.search = TextInput;
 types.string = TextInput;
 types.email = TextInput;
 types.password = TextInput;
