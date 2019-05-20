@@ -25,7 +25,7 @@
   "homepage": "https://github.com/4Catalyzer/react-formal-bootstrap#readme",
   "peerDependencies": {
     "react": ">=0.14.0",
-    "react-bootstrap": ">= 0.29.0",
+    "react-bootstrap": "^0.29.0",
     "react-formal": "^0.24.3"
   },
   "devDependencies": {
